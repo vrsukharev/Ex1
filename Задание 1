@@ -7,4 +7,13 @@ if B<A:
   for i in range(B,A):
     print(i)
     
+Задание 3 
+a = int(input())
+a = str(a)
+a_reverse =  a[::-1]
+if a_reverse == a:
+  print("a - палиндром")
+if not a_reverse == a:
+  print("a - не палиндром")
+    
    
